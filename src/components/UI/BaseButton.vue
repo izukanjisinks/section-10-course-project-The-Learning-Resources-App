@@ -1,4 +1,8 @@
 <template>
+   <!-- :type basically binds the type attribute
+        of the button to the prop so that whatever
+        is passed through as a prop is give to the 
+        type of the button -->
     <button :type="type" :class="mode"><slot></slot></button>
 </template>
 
